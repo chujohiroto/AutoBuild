@@ -1,0 +1,12 @@
+{
+    "name": "jp.irossoftware.autobuild",
+    "displayName": "AutoBuild",
+    "version": "1.0.0",
+    "unity": "2018.3",
+    "description": "Unity CLI Build",
+    "keywords": [
+        "Script",
+        "Build"
+    ],
+    "dependencies": {}
+}
