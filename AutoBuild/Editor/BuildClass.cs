@@ -92,7 +92,7 @@ namespace iRosSoftware.AutoBuild
             }
 
             var filename = Application.productName;
-#if UNITY_EDITOR
+#if UNITY_EDITOR_WIN
             filename += ".exe";
 #endif
             var builds = BuildPipeline.BuildPlayer(GetEditorBuildSettingsScenes(),
