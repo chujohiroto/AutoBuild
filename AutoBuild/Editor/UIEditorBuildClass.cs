@@ -16,6 +16,13 @@ namespace iRosSoftware.AutoBuild
             BuildClass.Build(BuildTarget.StandaloneOSX, BuildOptions.None);
         }
 
+        [MenuItem("AutoBuild/Linux64")]
+        static void Linux64Build()
+        {
+            BuildClass.Build(BuildTarget.StandaloneLinux64, BuildOptions.None);
+        }
+
+
         [MenuItem("AutoBuild/Android")]
         static void AndroidBuild()
         {
